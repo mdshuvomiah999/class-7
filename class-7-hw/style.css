@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: aliceblue;
+  color: #444;
+  font-size: 1.3rem;
+}
+
+table {
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgb(255, 255, 255);
+  border-collapse: collapse;
+  padding: 5px 3px;
+}
+
+tr {
+  border-bottom: 0.1px solid black;
+  cursor: pointer;
+}
+.bottom-none {
+  border-bottom: none;
+}
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+tbody tr td:nth-child(4) {
+  text-align: center;
+}
+tbody tr td:nth-child(3) {
+  text-align: center;
+}
+tbody tr td:nth-child(6) {
+  text-align: center;
+}
+tbody tr td:last-child {
+  text-align: center;
+}
+tbody tr td:last-child {
+  display: inline-block;
+  background-color: lightseagreen;
+  padding: 3px 6px;
+  margin: 15px auto;
+  border-radius: 3px;
+  color: white;
+}
+th,
+td {
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+th {
+  text-transform: uppercase;
+  background-color: indigo;
+  color: white;
+}
+
+.right-handed td:last-child {
+  background-color: indianred;
+}
+.all-rounder td:last-child {
+  background-color: crimson;
+}
+tbody tr .points {
+  color: red;
+}
+
+.card-image img:hover {
+  filter: hue-rotate(90deg);
+}
