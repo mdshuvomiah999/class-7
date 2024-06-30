@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  color: #444;
+}
+
+.profile-container {
+  width: 460px;
+  border-radius: 10px;
+  margin: 100px auto;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgb(148, 157, 165), -5px -5px 10px rgb(255, 255, 255);
+}
+
+.background {
+  height: 500px;
+  width: 460px;
+  overflow: hidden;
+  background-color: rgb(67, 36, 241);
+  border-radius: 0 0 -20px 20px;
+}
+.background .profile-image {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 100px auto;
+  border-radius: 50%;
+  outline: 3px solid white;
+  outline-offset: 7px;
+}
+.profile-image img {
+  width: 300px;
+  cursor: pointer;
+}
+.profile-image img:hover {
+  filter: brightness(1.1);
+}
+.profile-details {
+  text-align: center;
+  margin-top: 15px;
+  width: 460px;
+  height: 300px;
+}
+.profile-details h1 {
+  text-transform: uppercase;
+  font-size: 2.1rem;
+}
+
+.profile-details p {
+  font-size: 1.3rem;
+  text-align: justify;
+  padding: 20px;
+}
+.profile-details a {
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 18px;
+  color: white;
+  background-color: mediumvioletred;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.profile-details a:hover {
+  background-color: rgb(155, 20, 105);
+  letter-spacing: 3px;
+}
+
+.profile-details a:active {
+  background-color: rgb(228, 36, 158);
+}
